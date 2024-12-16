@@ -1,0 +1,189 @@
+(footprint "LoRa1262F30"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "d248ab76-aa55-4ebb-a7c2-5ee45ac9e872")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "LoRa1262F30"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "22280ed3-3cbf-478c-af2e-23408caa377b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e8f7aa8c-f45a-4fd1-87c7-fca27be7fd73")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.nicerf.com/lora-module/sx1262-lora-module-lora1262f30.html"
+		(at 0 -4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6e47e241-ffc6-4e30-9906-51f9b2a0ef49")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "SX1262 2W TCXO LoRa Module With ESD Protection"
+		(at 0 -2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6820baaa-25a0-46cf-bce9-9e91b4790403")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -10 0)
+		(end 10 38)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "8449b0f3-be97-433a-8362-5e3dc8901d39")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "245779c2-3957-436d-847d-990ff8e028f9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 10 5)
+		(size 3 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "81d86135-bd43-4ce1-90bc-a9a6cfeb6e48")
+	)
+	(pad "2" smd rect
+		(at 10 9)
+		(size 3 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "447a394e-87e7-484b-9b08-b419bf09070a")
+	)
+	(pad "3" smd rect
+		(at 10 13)
+		(size 3 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "6151a55c-1627-422a-9c8e-8eb98fa7de1b")
+	)
+	(pad "4" smd rect
+		(at 10 17)
+		(size 3 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "b1893f16-33c3-4235-bdb6-a8bdc3c6ac6e")
+	)
+	(pad "5" smd rect
+		(at 10 21)
+		(size 3 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "75b39731-2d3d-4387-8ef5-c30a372b38ab")
+	)
+	(pad "6" smd rect
+		(at 10 25)
+		(size 3 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "5a657f53-9d94-4dc5-880d-be05a0938b40")
+	)
+	(pad "7" smd rect
+		(at 10 29)
+		(size 3 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "1a0448f3-31f8-4112-8f92-7ac0586fcfa4")
+	)
+	(pad "8" smd rect
+		(at 10 33)
+		(size 3 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "39694776-5b1a-498a-9b3a-b63b42076257")
+	)
+	(pad "9" smd rect
+		(at -10 32.9)
+		(size 3 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "a9b482c6-279e-4147-b149-0bf7a801a0c7")
+	)
+	(pad "10" smd rect
+		(at -10 28.9)
+		(size 3 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "ae0af3b8-ca8f-481a-9d0f-f553cb6c7f65")
+	)
+	(pad "11" smd rect
+		(at -10 24.9)
+		(size 3 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "46f1c40e-675e-4a57-a80f-f7e757fadec7")
+	)
+	(pad "12" smd rect
+		(at -10 20.9)
+		(size 3 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "3ec759ee-d919-45da-9fb2-7c440d8f6953")
+	)
+	(pad "13" smd rect
+		(at -10 16.9)
+		(size 3 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "4ec8d908-6604-4028-8416-f43a6b16cdda")
+	)
+	(pad "14" smd rect
+		(at -10 12.9)
+		(size 3 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "cf5130b4-56b5-495f-86ef-362442affaaf")
+	)
+	(pad "15" smd rect
+		(at -10 8.9)
+		(size 3 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "0d873018-82e6-4e25-bb7e-2ef73a65b1f6")
+	)
+	(pad "16" smd rect
+		(at -10 5)
+		(size 3 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "976ee1a2-c335-4acd-8329-53b06c1588de")
+	)
+)
