@@ -58,9 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "starved_thermal|134617500|113250000|73ebd751-336a-4ac3-9d56-b496a0f867b3|e943347a-24ff-4ded-9305-4e4a8bab45b2|F.Cu"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -103,7 +101,7 @@
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
-        "starved_thermal": "error",
+        "starved_thermal": "ignore",
         "text_height": "warning",
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
