@@ -58,7 +58,9 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "starved_thermal|134617500|113250000|73ebd751-336a-4ac3-9d56-b496a0f867b3|e943347a-24ff-4ded-9305-4e4a8bab45b2|F.Cu"
+      ],
       "meta": {
         "version": 2
       },
@@ -179,9 +181,10 @@
       ],
       "track_widths": [
         0.0,
-        0.4,
-        0.7,
-        1.4
+        0.2,
+        0.3,
+        0.5,
+        1.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
